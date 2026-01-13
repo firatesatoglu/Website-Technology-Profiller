@@ -275,14 +275,9 @@ The API exposes its internal technology database:
 
 ### System Endpoints
 - **Health Check**: `GET /health`
-- **Version**: `GET /version` (Returns `{"version": "1.0.0"}`)
 
 ## Project Structure
 
 - `main.py`: FastAPI application entry point.
 - `technology_tracker/`: Core scanning library.
 - `technology_tracker/data/`: Technology fingerprints (Wappalyzer compatible).
-
-## License
-
-[MIT License](LICENSE)

@@ -1,0 +1,10 @@
+selenium
+requests
+webdriver-manager
+tldextract
+huepy
+dnspython
+bs4
+python-dotenv
+fastapi
+uvicorn

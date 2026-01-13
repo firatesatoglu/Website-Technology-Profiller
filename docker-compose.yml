@@ -1,0 +1,10 @@
+services:
+  technology-profiler:
+    build: .
+    container_name: technology-profiler
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    shm_size: '2gb' # Required for Selenium/Firefox
+    environment:
+      - PYTHONUNBUFFERED=1
