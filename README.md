@@ -39,6 +39,9 @@ A Python-based API service to scan websites and detect the technologies they are
 - **Swagger UI**: [http://localhost:8000/](http://localhost:8000/)
 - **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
+<img width="1587" height="950" alt="api-docs" src="https://github.com/user-attachments/assets/d24cabdf-39f0-4477-9c9d-3749c197d024" />
+
+
 ### Scan a Website
 **Endpoint**: `POST /scan`
 
